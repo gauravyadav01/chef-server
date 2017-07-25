@@ -1,0 +1,5 @@
+.git
+.vagrant
+batali.manifest
+.chef/syntax_check_cache
+cookbooks

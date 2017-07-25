@@ -1,0 +1,16 @@
+---
+  :domain: example.com
+  :network: 192.168.10.0/24
+  :box: bento/centos-7.3
+  :vms:
+    - :name: chef-server
+      :ip: 192.168.10.2
+      :role: my_chef_zero
+      :cpu: 2
+      :memory: 2048
+    - :name: chef-node1
+      :ip: 192.168.10.3
+      :role: elk
+    - :name: chef-node2
+      :ip: 192.168.10.4
+      :role: base

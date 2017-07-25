@@ -1,0 +1,9 @@
+Batali.define do
+  source 'https://supermarket.chef.io'
+  cookbook 'my_chef_zero', path: 'site-cookbooks/my_chef_zero'
+  cookbook 'my_chef_server', path: 'site-cookbooks/my-chef-server'
+  cookbook 'base', path: 'site-cookbooks/base'
+  cookbook 'my_elasticsearch', path: 'site-cookbooks/my_elasticsearch'
+  cookbook 'audit'
+end
+
